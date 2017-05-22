@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="candidate_bar_highlighted_color" />
+    <item type="id" name="candidate_bar_highlighted_text_color" />
+    <item type="id" name="cloud_about_layout" />
+    <item type="id" name="cloud_policy_layout" />
+    <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="key_icon_accent_color" />
+    <item type="id" name="keyboard_border_moving" />
+    <item type="id" name="keyboard_height_picker_layout" />
+    <item type="id" name="keyboard_icon_accent_color" />
+    <item type="id" name="language_select_layout" />
+    <item type="id" name="personalization_guide_layout" />
+    <item type="id" name="skin_picker_layout" />
+    <item type="id" name="swift_key_personalization_layout" />
+    <item type="id" name="trace_color" />
+    <item type="id" name="wizard_key_accent_color" />
+    <item type="id" name="mywords_progressbar">false</item>
+    <item type="id" name="candidate_view_container">false</item>
+    <item type="id" name="candidates">false</item>
+    <item type="id" name="moreButton">false</item>
+    <item type="id" name="keyboardHeader">false</item>
+    <item type="id" name="keyboardFooter">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="checked_user_dictionary_item">false</item>
+    <item type="id" name="emoji_container">false</item>
+    <item type="id" name="emoji_content_view">false</item>
+    <item type="id" name="emoji_tab_view_container">false</item>
+    <item type="id" name="emoji_grid_and_buttons">false</item>
+    <item type="id" name="emoji_grid_view">false</item>
+    <item type="id" name="emoji_bottom_row">false</item>
+    <item type="id" name="toggle_button_container">false</item>
+    <item type="id" name="toggle_button_shadow">false</item>
+    <item type="id" name="toggle_button">false</item>
+    <item type="id" name="delete_button_container">false</item>
+    <item type="id" name="delete_button_shadow">false</item>
+    <item type="id" name="delete_button">false</item>
+    <item type="id" name="emoji_tab_view">false</item>
+    <item type="id" name="splitEmojiTabGap">false</item>
+    <item type="id" name="floatingKeyboardView">false</item>
+    <item type="id" name="floatingKeyboardTypeList">false</item>
+    <item type="id" name="floating_keyboard_type_item">false</item>
+    <item type="id" name="floating_keyboard_type_icon">false</item>
+    <item type="id" name="floating_keyboard_type_text">false</item>
+    <item type="id" name="permission_dialog_message">false</item>
+    <item type="id" name="permission_dialog_permission_content">false</item>
+    <item type="id" name="permission_dialog_bottom_message">false</item>
+    <item type="id" name="simple_dialog_content">false</item>
+    <item type="id" name="recycler_view_skins">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="placeholder">false</item>
+    <item type="id" name="personalization_guide_buttons_layout">false</item>
+    <item type="id" name="btnPrevious">false</item>
+    <item type="id" name="btnNext">false</item>
+    <item type="id" name="keyboard_view">false</item>
+    <item type="id" name="languageSelectLayout">false</item>
+    <item type="id" name="imageLanguages">false</item>
+    <item type="id" name="currentLanguages">false</item>
+    <item type="id" name="changeLanguagesButton">false</item>
+    <item type="id" name="writingLanguage">false</item>
+    <item type="id" name="numericKeysLayout">false</item>
+    <item type="id" name="upgradeLanguageText">false</item>
+    <item type="id" name="wrappingView">false</item>
+    <item type="id" name="guideListItemTextContainer">false</item>
+    <item type="id" name="guideListItemSwitch">false</item>
+    <item type="id" name="primaryGuideListItemText">false</item>
+    <item type="id" name="secondaryGuideListItemText">false</item>
+    <item type="id" name="ivConfigImageWithTrace">false</item>
+    <item type="id" name="tvTraceHint">false</item>
+    <item type="id" name="tvFinishPersonalizationGuideMessage">false</item>
+    <item type="id" name="ivConfigImage">false</item>
+    <item type="id" name="chBoxGestureInputLine">false</item>
+    <item type="id" name="chBoxGestureInput">false</item>
+    <item type="id" name="learnWritingStyleText">false</item>
+    <item type="id" name="upgradeLearnWritingStyleText">false</item>
+    <item type="id" name="learnWritingStyleButton">false</item>
+    <item type="id" name="backupAndSyncSection">false</item>
+    <item type="id" name="backupGuidePicture">false</item>
+    <item type="id" name="backupAndSyncText">false</item>
+    <item type="id" name="backupAndSyncButton">false</item>
+    <item type="id" name="backupAndSyncTextIfAlreadyActivated">false</item>
+    <item type="id" name="guideList">false</item>
+    <item type="id" name="rbgSelectPrediction">false</item>
+    <item type="id" name="rb_prediction_automatic_correction">false</item>
+    <item type="id" name="rb_prediction_substitute_letters">false</item>
+    <item type="id" name="rb_prediction_sloppy_manual">false</item>
+    <item type="id" name="candidates_layout">false</item>
+    <item type="id" name="candidates_background">false</item>
+    <item type="id" name="candidates_placeholder">false</item>
+    <item type="id" name="preview_placeholder">false</item>
+    <item type="id" name="primaryCandidate">false</item>
+    <item type="id" name="primaryCandidateImage">false</item>
+    <item type="id" name="keyboard_container">false</item>
+    <item type="id" name="keyboard_and_candidatebar_area">false</item>
+    <item type="id" name="candidate_bar_divider">false</item>
+    <item type="id" name="keyboard_resize_keyboard_layout">false</item>
+    <item type="id" name="keyboard_resize_maximum_divider">false</item>
+    <item type="id" name="keyboard_resize_default_divider">false</item>
+    <item type="id" name="keyboard_resize_keyboard">false</item>
+    <item type="id" name="keyboard_resize_handle">false</item>
+    <item type="id" name="keyboard_resize_handle_bg">false</item>
+    <item type="id" name="keyboard_resize_handle_up">false</item>
+    <item type="id" name="keyboard_resize_handle_down">false</item>
+    <item type="id" name="keyboard_slider">false</item>
+    <item type="id" name="candidate_bar_background">false</item>
+    <item type="id" name="keyboard_slider_background">false</item>
+    <item type="id" name="leftExpandButton">false</item>
+    <item type="id" name="rightExpandButton">false</item>
+    <item type="id" name="slideLeftArrow">false</item>
+    <item type="id" name="slideRightArrow">false</item>
+    <item type="id" name="keyboard_top_divider">false</item>
+    <item type="id" name="keyboard_view_with_shadow">false</item>
+    <item type="id" name="keyboard_view_image">false</item>
+    <item type="id" name="language_list_item_content_checkbox">false</item>
+    <item type="id" name="language_list_item_content">false</item>
+    <item type="id" name="language_list_item_buttons">false</item>
+    <item type="id" name="language_list_item_content_language_label">false</item>
+    <item type="id" name="language_list_item_content_layout_label">false</item>
+    <item type="id" name="language_list_item_content_language_update_label">false</item>
+    <item type="id" name="language_list_item_content_language_download_progressbar">false</item>
+    <item type="id" name="language_list_item_update_button">false</item>
+    <item type="id" name="language_list_item_layout_selection_button">false</item>
+    <item type="id" name="language_dialog_download_language_content_text">false</item>
+    <item type="id" name="auto_update_checkbox">false</item>
+    <item type="id" name="confirm_checkbox">false</item>
+    <item type="id" name="languagesListView">false</item>
+    <item type="id" name="extraButtonsContainer">false</item>
+    <item type="id" name="okButton">false</item>
+    <item type="id" name="dividerLabel">false</item>
+    <item type="id" name="skin_item_image">false</item>
+    <item type="id" name="skin_item_name">false</item>
+    <item type="id" name="skin_item_enabled">false</item>
+    <item type="id" name="skin_item_checker">false</item>
+    <item type="id" name="content_container">false</item>
+    <item type="id" name="main_fullscreen_container">false</item>
+    <item type="id" name="more_candidates_animation_container">false</item>
+    <item type="id" name="more_candidates_with_margin_container">false</item>
+    <item type="id" name="more_candidates_container">false</item>
+    <item type="id" name="more_candidates_container_margin">false</item>
+    <item type="id" name="more_candidates_divider">false</item>
+    <item type="id" name="more_candidates_container_row">false</item>
+    <item type="id" name="speechbubblebox">false</item>
+    <item type="id" name="npam_removed_checkbox">false</item>
+    <item type="id" name="keyboardScrollView">false</item>
+    <item type="id" name="seek_bar">false</item>
+    <item type="id" name="policy_root">false</item>
+    <item type="id" name="main_text">false</item>
+    <item type="id" name="policy_info">false</item>
+    <item type="id" name="policy_checkbox_and_text">false</item>
+    <item type="id" name="policy_checkbox">false</item>
+    <item type="id" name="policy_checkbox_text">false</item>
+    <item type="id" name="google_login_button">false</item>
+    <item type="id" name="user_dictionary_item">false</item>
+    <item type="id" name="backup_and_sync_about_fragment">false</item>
+    <item type="id" name="personalizer_fragment">false</item>
+    <item type="id" name="gmail">false</item>
+    <item type="id" name="sms">false</item>
+    <item type="id" name="keyboard_wizard_base">false</item>
+    <item type="id" name="keyboard_wizard_glow">false</item>
+    <item type="id" name="selectLayoutMenu">false</item>
+    <item type="id" name="markAll">false</item>
+    <item type="id" name="unmarkAll">false</item>
+</resources>

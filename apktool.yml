@@ -1,0 +1,30 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: textinput-tng.apk
+compressionType: false
+doNotCompress:
+- arsc
+- res/raw/gtm_empty_container
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '24'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2
+versionInfo:
+  versionCode: '16777326'
+  versionName: 8.0.A.0.110
