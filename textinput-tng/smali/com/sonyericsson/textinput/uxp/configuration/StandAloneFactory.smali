@@ -527,6 +527,19 @@
     const/4 v1, 0x7
 
     goto :goto_0
+	
+	:sswitch_8
+    const-string v2, "skin-dark-xosp"
+
+    invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 v1, 0x8
+
+    goto :goto_0
 
     .line 192
     :pswitch_0
@@ -628,6 +641,17 @@
     .line 214
     .restart local v0    # "result":Lcom/sonyericsson/textinput/uxp/controller/skin/ISkin;
     goto :goto_1
+	
+	.line 216
+    .end local v0    # "result":Lcom/sonyericsson/textinput/uxp/controller/skin/ISkin;
+    :pswitch_8
+    new-instance v0, Lcom/sonyericsson/textinput/uxp/controller/skin/SkinXperiaXOSPDark;
+
+    invoke-direct {v0}, Lcom/sonyericsson/textinput/uxp/controller/skin/SkinXperiaXOSPDark;-><init>()V
+
+    .line 217
+    .restart local v0    # "result":Lcom/sonyericsson/textinput/uxp/controller/skin/ISkin;
+    goto :goto_1
 
     .line 190
     :sswitch_data_0
@@ -640,6 +664,7 @@
         0x5ece5cc6 -> :sswitch_2
         0x76a811c6 -> :sswitch_1
         0x79a35903 -> :sswitch_5
+		0x79a35902 -> :sswitch_8
     .end sparse-switch
 
     :pswitch_data_0
@@ -652,6 +677,7 @@
         :pswitch_5
         :pswitch_6
         :pswitch_7
+		:pswitch_8
     .end packed-switch
 .end method
 

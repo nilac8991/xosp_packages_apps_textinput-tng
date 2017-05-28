@@ -582,6 +582,19 @@
     const/4 v7, 0x7
 
     goto :goto_0
+	
+	:sswitch_8
+    const-string v11, "skin-dark-xosp"
+
+    invoke-virtual {v10, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v10
+
+    if-eqz v10, :cond_0
+
+    const/4 v7, 0x8
+
+    goto :goto_0
 
     .line 145
     :pswitch_0
@@ -935,6 +948,7 @@
         0x5ece5cc6 -> :sswitch_2
         0x76a811c6 -> :sswitch_0
         0x79a35903 -> :sswitch_4
+		0x79a35902 -> :sswitch_8
     .end sparse-switch
 
     :pswitch_data_0
@@ -947,6 +961,7 @@
         :pswitch_5
         :pswitch_6
         :pswitch_7
+		:pswitch_8
     .end packed-switch
 .end method
 

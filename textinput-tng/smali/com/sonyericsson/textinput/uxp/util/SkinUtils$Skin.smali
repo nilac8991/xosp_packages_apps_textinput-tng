@@ -173,9 +173,24 @@
     invoke-direct {v0, v1, v2, v3, v4}, Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 
     sput-object v0, Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;->XPERIA_PURPLE:Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;
+	
+	.line 106
+    new-instance v0, Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;
+
+    const-string v1, "XPERIA_DARK_XOSP"
+
+    const/4 v2, 0x8
+
+    const-string v3, "skin-dark-xosp"
+
+    const v4, 0x7f070030
+
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
+
+    sput-object v0, Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;->XPERIA_DARK_XOSP:Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;
 
     .line 97
-    const/16 v0, 0x8
+    const/16 v0, 0x9
 
     new-array v0, v0, [Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;
 
@@ -214,6 +229,12 @@
     const/4 v1, 0x7
 
     sget-object v2, Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;->XPERIA_PURPLE:Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;
+
+    aput-object v2, v0, v1
+	
+	const/4 v1, 0x8
+
+    sget-object v2, Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;->XPERIA_DARK_XOSP:Lcom/sonyericsson/textinput/uxp/util/SkinUtils$Skin;
 
     aput-object v2, v0, v1
 

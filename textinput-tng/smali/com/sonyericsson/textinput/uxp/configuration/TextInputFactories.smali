@@ -543,6 +543,13 @@
     invoke-direct {v0}, Lcom/sonyericsson/textinput/uxp/view/settings/NpamRemovedVisualisation$Factory;-><init>()V
 
     invoke-virtual {p0, v0}, Lcom/sonyericsson/collaboration/ObjectEnvironmentBuilder;->addFactory(Lcom/sonyericsson/collaboration/ObjectFactory;)V
+	
+	.line 162
+    new-instance v0, Lcom/sonyericsson/textinput/uxp/controller/skin/SkinXperiaXOSPDark$Factory;
+
+    invoke-direct {v0}, Lcom/sonyericsson/textinput/uxp/controller/skin/SkinXperiaXOSPDark$Factory;-><init>()V
+
+    invoke-virtual {p0, v0}, Lcom/sonyericsson/collaboration/ObjectEnvironmentBuilder;->addFactory(Lcom/sonyericsson/collaboration/ObjectFactory;)V
 
     .line 162
     return-void
